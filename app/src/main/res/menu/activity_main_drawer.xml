@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/user"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Usuario" />
+        <item
+            android:id="@+id/marcas"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Marcas" />
+    </group>
+
+    <item android:title="Movimiento">
+        <menu>
+            <item
+                android:id="@+id/extintor"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pedidos" />
+
+        </menu>
+    </item>
+
+    <item android:title="Sesion">
+        <menu>
+            <item
+                android:id="@+id/acerca"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Acerca de..." />
+
+            <item
+                android:id="@+id/sesion"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Cerrar Sesion" />
+
+        </menu>
+    </item>
+
+
+</menu>
